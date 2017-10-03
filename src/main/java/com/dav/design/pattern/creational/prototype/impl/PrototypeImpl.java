@@ -29,4 +29,9 @@ public class PrototypeImpl implements Prototype, Cloneable {
 	public PrototypeImpl clone() throws CloneNotSupportedException {
 		return (PrototypeImpl) super.clone();
 	}
+
+	@Override
+	public void printCode() {
+		System.out.println(this.hashCode());
+	}
 }

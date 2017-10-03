@@ -14,6 +14,7 @@ public class Client {
 			// Derive a new value from the prototype's "x" value
 			tempotype.setX(tempotype.getX() * i);
 			tempotype.printX();
+			tempotype.printCode();
 		}
 	}
 

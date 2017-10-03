@@ -6,4 +6,6 @@ public interface Prototype {
 	void printX();
 
 	int getX();
+	
+	void printCode();
 }
